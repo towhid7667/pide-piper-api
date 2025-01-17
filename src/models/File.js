@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const fileSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    type: { type: String, required: true }, // 'folder', 'pdf', 'image', 'document'
+    type: { type: String, required: true },
     size: { type: Number, default: 0 },
     path: String,
     parentFolder: { type: mongoose.Schema.Types.ObjectId, ref: 'File', default: null },
