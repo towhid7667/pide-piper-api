@@ -1,4 +1,4 @@
-# Google Drive Clone API
+# JOTTER API
 
 A Node.js-based Google Drive clone API with features like file upload, folder management, and user authentication.
 
