@@ -1,4 +1,4 @@
-# JOTTER API
+# Pide-Piper API
 
 A Node.js-based JOTTER API with features like file upload, folder management, and user authentication.
 
